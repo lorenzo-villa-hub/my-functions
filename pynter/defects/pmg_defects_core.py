@@ -12,7 +12,7 @@ from functools import lru_cache
 from pymatgen.core.structure import Structure, PeriodicSite
 from pymatgen.core.composition import Composition
 from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
-from pymatgen.analysis.defects.utils import kb
+from pymatgen.core.units import kb
 
 __author__ = "Danny Broberg, Shyam Dwaraknath"
 __copyright__ = "Copyright 2018, The Materials Project"
