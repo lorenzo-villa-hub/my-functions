@@ -9,7 +9,7 @@ Created on Fri Dec 11 14:33:12 2020
 
 import numpy as np
 from scipy.optimize import bisect
-from pymatgen.analysis.defects.utils import kb
+from pymatgen.core.units import kb
 from pymatgen.core.structure import Structure, PeriodicSite, Lattice
 from pymatgen.core.periodic_table import Element
 from pymatgen.electronic_structure.dos import FermiDos
