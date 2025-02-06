@@ -263,7 +263,7 @@ class DatasetAnalysis:
         lattice_params = []
         band_gaps = []
         for j in self.jobs:
-            U_list.append(j.hubbard[el])
+            U_list.append(j.hubbards[el])
             lattice = j.final_structure.lattice
             lattice_params.append(getattr(lattice,lattice_parameter))
             band_gaps.append(j.energy_gap)
